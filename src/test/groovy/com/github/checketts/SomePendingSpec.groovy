@@ -25,7 +25,7 @@ class SomePendingSpec extends Specification{
     }
 
     @Pending
-    def "Failing due to bad assertion, should appear as Ignored/Skipped test"() {
+    def "Failing due to bad assertion, should appear as Ignored/Skipped test due to annotation"() {
         when:
         def a = 1 + 2
         then:
